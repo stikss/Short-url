@@ -5,14 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=content_copy" />">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=content_copy" />
+    <link rel="shortcut icon" href="/icon/descarga.webp" type="image/x-icon">
+    <title>Acortador de URL</title>
 </head>
 <body>
     <div class="main">
         <p>Acortador de URL</p>
         
-        <input type="text" name="" id="longurl" placeholder="Ingrese la URL larga">
+        <input type="text" name="" id="longurl" placeholder="Ingrese la URL">
         <button id="shorten">Acortar</button>
         <div class="short-url-container"> <input type="text" name="" id="shorturl" placeholder="URL acortada" readonly>
             <button id="copy">
@@ -22,5 +23,7 @@
             </button>
         </div>
     </div>
+    <script src="logic.js"></script>
+    <script src="copy.js"></script>
 </body>
 </html>
