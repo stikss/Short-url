@@ -1,0 +1,111 @@
+*{
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+body {
+    background-color: #f0f0f5;
+}
+
+.main {
+    position: relative;
+    background-color: #e0e7ff;
+    height: 500px;
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    border: 2px solid #6a0dad;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    /*
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    */
+}
+
+/*Para ambos textos */
+input {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: large;
+    font-family: monospace;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+#longurl{
+    position: relative;
+    top: 40%;
+    left: 10%;
+    height: 40px;
+    width: 300px;
+}
+
+#shorten {
+    position: relative;
+    top: 40%;
+    left: 10%;
+    height: 40px;
+    width: 80px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: large;
+    font-family: monospace;
+    font-weight: bold;
+    color: white;
+    background-color: #007bff;
+}
+
+#shorten:hover{
+    background-color: rgb(29, 29, 97);
+    color: rgb(126, 126, 126);
+}
+
+.short-url-container {
+    position: relative;
+    top: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Opcional: Centrar horizontalmente */
+    margin-top: 10px; /* Ejemplo de margen para separar */
+}
+
+#shorturl {
+    height: 40px;
+    width: 270px;
+}
+
+#copy {
+    height: 40px;
+    width: 40px;
+    margin-left: 1%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: large;
+    font-family: monospace;
+    font-weight: bold;
+    color: #ccc;
+    background-color: #007bff;
+}
+#copy:hover{
+    background-color: rgb(29, 29, 97);
+    color: rgb(126, 126, 126);
+}
+
+
+.main p {
+    position: relative;
+    top: 20%;
+    left: 10%;
+    height: 60px;
+    width: 400px;
+    font-size: 50px;
+    font-family: monospace;
+    font-weight: bold;
+    display: flex;
+    align-items: center; /* Centra verticalmente el texto */
+    justify-content: center; /* Centra horizontalmente el texto si es necesario */
+}
